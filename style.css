@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+  
+  margin:0;
+padding: 0;
+
+}
+.container{
+ display: flex;
+}
+
+.sidebar{
+  position: absolute;
+  height: 1600px;
+background-color: lightgrey;
+transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+  padding:8vw 10vw ;
+}
+.sidebar nav li{
+  margin-top: 20vw;
+  margin-bottom: 10vw;
+  list-style: none;
+  font-size:1em;
+  font-family: 'Baloo Bhai 2';
+ font-weight: 700;
+
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+
+}
+.main{
+  overflow: auto;
+  height: 100vh;
+  width: 200;
+  display: flex;
+/* background-color: yellow;*/
+}
+.infomain{
+ 
+  margin-left: 100px;
+ margin-top: 40vw;
+  height: 100vw;
+  width: 1000px;
+/*background-color: pink;*/
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo{
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Hallo{
+  font-size: 3em;
+  
+}
+.Name{
+  font-size: 3em;
+  font-weight:bold;
+  font-family: 'Baloo Bhai 2';
+}
+.About{
+
+  font-size: 2em;
+}
+.About p{
+  
+      font-family: 'Chivo Mono',monospace; 
+
+}
+.button button {
+ margin: 25px 10px 10px 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: cornflowerblue;
+  color: black;
+  border-radius: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button button :hover{
+  background-color: white;
+  color: dodgerblue;
+}
+.devpic img{
+  padding-left: 10px;
+  height: 60vw;
+
+} 
+.contactform{
+  overflow: auto;
+  padding-top: 120px;
+  padding-left: 50px;
+  
+}
+.contactform div{
+  display: flex;
+  flex-direction: column;
+margin-top: 20px;
+}
+.contactform div input{
+  width: 60%;
+  border-radius: 8px;
+}
+
+.contactform h1{
+  font-size: 2em;
+  font-family:  'Baloo Bhai 2';
+  text-align: center;
+}
+#emailHelp{
+  color: blue;
+  font-size: 10px;
+}
+#form-check{
+  display: flex;
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+  padding-top: 10px;
+}
+.submit {
+  font-size: 0.5em;
+  font-weight: 400;
+  color:black;
+  width: 5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background-color: cornflowerblue;
+margin-top: 10px;
+}
+.submit :hover{
+  background-color: white;
+ color: black;
+}
+.blogcontainer{
+  padding-top: 3em;
+}
+.blogcontainer h1{
+  font-size:2em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.blogitem{
+  
+}
+.blogitem p{
+  font-size: 0.7em;
+  padding-top: 10px;
+  font-family: 'Chivo Mono',monospace; 
+}
+.blogitem h2{
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2';
+
+}
+.myintro{
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+.myintro h1{
+  font-size: 2em;
+    padding-top: 10px;
+  padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2';
+
+}
+.myintro p{
+  font-size: 0.7em;
+    padding-top: 10px;
+  padding-bottom: 10px;
+    font-family: 'Chivo Mono',monospace; 
+}
+.personal{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+ }
+ .personal1{
+ 
+      margin-top: 10px;
+  
+ padding-top: 20px;
+    padding-bottom:15px;
+    width: 60%;
+      font-family: 'Baloo Bhai 2';
+      font-weight: 700;
+      box-shadow: 0 0 50px gainsboro;
+ }
+  .personal2{
+        margin-top: 10px;
+  margin-left: 20px;
+ padding-top: 20px;
+    padding-bottom:15px;
+    width: 60%;
+      font-family: 'Baloo Bhai 2';
+      font-weight: 700;
+      box-shadow: 0 0 50px gainsboro;
+ }
+.personalitem{
+ 
+
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 80%;
+  
+}
+.personalitem p {
+  font-weight: 700;
+  padding-left: 0px;
+  margin-right: 40px;
+ 
+  font-size: 0.7em;
+  font-family: 'Baloo Bhai 2';
+color: black;
+border-bottom: 0.5px solid black;
+}
+.skill-education{
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.education{
+
+          
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+  box-shadow: 0 0 50px gainsboro;
+}
+.education h2{
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.education h3{
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.education p{
+  font-size: 0.7em;
+  font-family: 'Chivo Mono',monospace; 
+
+}
+.skillcontainer{
+
+box-shadow: 0 0 50px gainsboro;
+margin-left: 20px;
+width: 60%;
+}
+.skillitem{
+  font-size: 1em;
+  margin-top: 10px;
+  margin-left: 20px;
+   padding-top: 20px;
+    padding-bottom:15px;
+     font-family: 'Baloo Bhai 2';
+      font-weight: 700;
+
+}
+.skill{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 15px;
+  width: 25vw;
+  background-color: red;
+  
+}
+.hundred{
+  width: 100%;
+  background-color: red;
+}
+.fifty{
+    width: 80%vw;
+  background-color: royalblue;
+}
+.t5{
+  width: 50%;
+  background-color: greenyellow;
+}
+.myproject h2{
+    padding-top: 15px;
+  font-family: 'Baloo Bhai 2';
+font-weight: 700;
+}
+.project{
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.project h3{
+  font-size: 1em;
+  padding-top: 15px;
+  padding-bottom:5px;  
+  font-family: 'Baloo Bhai 2';
+
+  
+}
+.project p{
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  font-size: 0.7em;
+    font-family: 'Chivo Mono',monospace; 
+
+}
+.firstproject{
+  box-shadow: 0 0 50px gainsboro;
+  width: 60%;
+  font-family: 'Baloo Bhai 2';
+ font-weight: 700;
+
+}
+.secondproject{
+   box-shadow: 0 0 50px gainsboro;
+  margin-left: 20px;
+   width: 60%;
+ font-family: 'Baloo Bhai 2';
+  font-weight: 700;
+     
+}
+.service{
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  
+}
+.service h1{
+  padding-top: 3em;
+  text-align: center;
+  font-size: 2em;
+}
+.service1{
+ 
+        margin-top: 10px;
+  margin-left: 20px;
+ padding-top: 20px;
+    padding-bottom:15px;
+    height: 50%;
+      font-family: 'Baloo Bhai 2';
+      font-weight: 700;
+      box-shadow: 0 0 50px gainsboro;
+}
+.computer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
+.jsimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:8em;
+}
+
+
+.service1 h2{
+  font-size: 1em;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom:5px;  
+  font-family: 'Baloo Bhai 2';}
+ 
+  .service1 p{
+    
+    font-size: 0.7em;
+  font-family: 'Chivo Mono',monospace; 
+ padding-left: 15px;
+padding-right: 15px;
+  }
+.service2{
+
+        margin-top: 100px;
+  margin-left: 20px;
+ padding-top: 20px;
+    padding-bottom:15px;
+    
+    height: 50%;
+      font-family: 'Baloo Bhai 2';
+      font-weight: 700;
+      box-shadow: 0 0 50px gainsboro;
+}
+.service2 h2{
+  font-size: 1em;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom:5px;  
+  font-family: 'Baloo Bhai 2';}
+
+  .service2 p{
+    font-size: 0.7em;
+    padding-top: 15px;
+  font-family:'Chivo Mono',monospace; padding-left: 15px;
+padding-right: 15px;
+
+  }
+  .sidebargo {
+   transform: translate(-443px,0px);
+   position: absolute;
+ }
+  .hamburger{
+  /*  background-color: red;*/
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+  }
+  .cros{
+    width: 1.5em;
+    margin-left: 205px;
+  }
+@media (max-width: 400px) {
+ *{
+  /*background-color: red;*/
+   
+ }
+ /* .sidebar{
+   transform: translate(-443px,0px);
+   position: absolute;
+ }*/
+   .cros {
+     
+     margin-left: 90px;
+   }
+ .button button{
+ padding: 7px 7px 7px 7px;
+ font-size: 5px;
+ }
+ .devpic{
+   display: none;
+ }
+ .devinfo{
+   font-size: 7px;
+ }
+ .myintro .blogcontainer .service .blogcontainer .contactform{
+   margin-top: 80px;
+  
+ }
+ .computer{
+   
+}
+.jsimg{
+  
+  
+}
+ }
+
+
+
